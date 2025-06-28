@@ -1,23 +1,7 @@
 NGINX Reverse Proxy with Go & Python Microservices
 
-This is a simple Docker-based setup with an NGINX reverse proxy routing traffic to two backend services — one written in Go and the other in Python (Flask).
-
-Project Structure
-.
-├── docker-compose.yml         
-├── nginx/                    
-│   ├── nginx.conf             
-│   └── Dockerfile             
-├── service_1/                 
-│   ├── main.go                
-│   ├── Dockerfile             
-├── service_2/                 
-│   ├── app.py                
-|   └── Dockerfile
-└── README.md                
-
-
-Step 1: Create the Project Folder Structure which is mentioned above
+This is a simple Docker-based setup with an NGINX reverse proxy routing traffic to two backend services — one written in Go and the other in Python (Flask)              
+Step 1: Create the Project Folder Structure
 
 Step 2: Add the Backend Applications
 
